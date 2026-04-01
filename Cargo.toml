@@ -6,6 +6,8 @@ rust-version = "1.85"
 description = "Fast native CLI for converting Markdown documents to formatted Word DOCX files"
 readme = "README.md"
 license = "MIT-0"
+repository = "https://github.com/paulbarby/md-to-docx-cli-rust"
+homepage = "https://github.com/paulbarby/md-to-docx-cli-rust"
 keywords = ["markdown", "docx", "word", "cli", "converter"]
 categories = ["command-line-utilities", "text-processing"]
 

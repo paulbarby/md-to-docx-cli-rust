@@ -6,10 +6,6 @@ The format is based on Keep a Changelog.
 
 ## [Unreleased]
 
-### Added
-
-- Added the MIT-0 license for unrestricted public use without attribution requirements.
-
 ## [0.1.0] - 2026-04-01
 
 ### Added
@@ -19,6 +15,7 @@ The format is based on Keep a Changelog.
 - Markdown formatting support for headings, paragraphs, emphasis, lists, block quotes, fenced code blocks, links, image placeholders, and readable table flattening.
 - Release profile tuning for small executable size and fast startup.
 - Public release documentation covering usage, contribution, and release workflow.
+- Added the MIT-0 license for unrestricted public use without attribution requirements.
 
 ### Changed
 
