@@ -1,0 +1,21 @@
+[package]
+name = "md2docx"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Fast native CLI for converting Markdown documents to formatted Word DOCX files"
+readme = "README.md"
+license = "MIT-0"
+keywords = ["markdown", "docx", "word", "cli", "converter"]
+categories = ["command-line-utilities", "text-processing"]
+
+[dependencies]
+docx-rs = { version = "0.4.19", default-features = false }
+pulldown-cmark = "0.13.3"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
